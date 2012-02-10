@@ -1,0 +1,21 @@
+Exercise Planning User Stories
+------------------------------
+
+As a user, I want to select which workout to do (Trunk, Upper Body or Full Body) and have the categories presented in random order each with a single randomly selected exercise.
+
+As a user, I want my workouts automatically rotated unless I select a specific one
+
+As a user, I do not want to perform the same exercise 2 workouts in a row
+
+As a user, I want the option to select the set of exercises which has not performed for the longest time
+
+As a user, I want the option to select specific exercises
+
+As a user, I want a file containing the day's workout with each exercise in order of performance, the category, the weight and reps when last performed and the number of workouts since it was last performed 
+
+As a user, I want to enter weight and rep for each exercise performed after the workout
+
+As a user, I want the option of creating a file with all the exercises by workout and category, and for each listing the last performed weight, last performed number of reps and number of workouts since it was last performed
+
+
+
