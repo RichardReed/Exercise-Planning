@@ -8,6 +8,6 @@ Scenario: random exercise selection
 		| Chest    |     6    |
 		| Back     |     4    |
 		| Arms     |     5    |
-	When I choose random exercise selection
-	Then I should see a list each category, in random order, with a single randomly picked exercise
+	When I choose "random" exercise selection
+	Then I should see a list containing each category, in random order, with a single randomly picked exercise
 	
