@@ -1,4 +1,5 @@
 require 'stringio'
+require 'rspec'
 require_relative '../../src/exerciseSelection'
 
 module RandomExerciseSelectionHelper
@@ -18,11 +19,12 @@ module RandomExerciseSelectionHelper
   
   def exercise_plan()
     puts "Then I should see a list.. started"
-    @output_file.should_not be_empty
+    @output_file.should exists
     @output_file.each_line do |line|
       puts "Exercise category and number is: #{line}"
       line.should match(/^\s*Back|Chest|Arms\s+[1-@exercise_session["exercises"]]$/)
     end
   end
 end
+
 World(RandomExerciseSelectionHelper)
